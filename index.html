@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion CBTis</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<style>
+h1 {
+	font-size: 18px;
+	font-family: "Comic Sans MS";
+}
+h2 {
+	text-align:center;
+	font-size: 20px;
+	font-family: "Comic Sans MS"; 	
+}
+h3 {
+	font-size: 18px;
+	font-family: "Comic Sans MS";
+	color: #903;
+}
+ul {
+	text-align: justify;
+	font-size: 15px;
+	font-family: "Comic Sans MS";
+}
+p {
+	font-size: 16px;
+	font-family: "Comic Sans MS";
+}
+.dgeti img {
+	width: 30%;
+	height: 30%;
+}
+.alumna {
+	width: 15%;
+	height: 10%;
+	margin: 0 auto;
+}
+</style>
+<body onLoad="MM_preloadImages('','imagenes/cbtis16.jpg')">
+ <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>CBTis N°16</h1>
+   </div>
+   <br>
+   <center>
+    <div>
+    <img src="imagenes/cbtis.jpg" width="45%" height="45%">
+    </div>
+   </center>
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>¿Quienes somos?</h1>
+        <div>
+         <ul>
+          <h1>Tipo de Bachillerato:</h1>
+          <li>Bachillerato Tecnológico, modalidad escolarizada</li>
+          <br>
+          <h1>¿A quién va dirigido?</h1>
+          <li>A los jóvenes egresados de secundaria que deseen seguir estudiando, como a quienes requieren cursar una carrera técnica para incorporarse al mercado laboral.</li>
+          <br>
+          <h1>Cobertura:</h1>
+          <li>La DGETI coordina Centros Educativos a Nivel Nacional:</li>
+          <li>•	288 Centros de Bachillerato Tecnológico Industrial y de Servicios (CBTis)</li>
+          <li>•	168 Centros de Estudios Tecnológicos Industrial y de Servicios (CETis)</li>
+          <li>•	812 Colegios de Estudios Científicos y Tecnológicos (CECyTES), que operan bajo un sistema descentralizado.</li>
+          <h1>Duración:</h1>
+          <li>3 años</li>
+          <h1>Modalidad:</h1>
+          <li>Educación Escolarizada: Esta modalidad es una formación bivalente, por una parte se egresa con una carrera técnica con los conocimientos, habilidades y destrezas para integrarse al sector productivo como técnico profesional y por otra parte ofrece al egresado la posibilidad de continuar sus estudios del nivel superior.</li>
+          <h1>Ventajas que ofrece esta modalidad:</h1>
+          <li>Las materias propedéuticas que se cursan son prácticamente las mismas que en el bachillerato general, por lo que se prepara para estudiar una carrera profesional del nivel superior.</li>
+	      <li>El plan de estudios incluye módulos para la formación tecnológica que te preparan como técnico del nivel medio superior en algunas de las carreras técnicas que se ofertan.</li>
+          <li>Al concluir cada módulo, los estudiantes reciben un certificado.</li>
+          <li>Estos certificados se plantean como “salidas laterales”, que permiten que los estudiantes tengan reconocimiento por sus estudios, aun cuando el estudiante no complete todo el plan de estudios del nivel medio superior.</li>
+          <h1>Al concluir tus estudios obtendrás:</h1>
+          <li>Obtienes el certificado de bachillerato y una carta de pasante; Una vez cubiertos los requisitos correspondientes, el egresado obtiene el título y la cédula profesional de la carrera cursada, registrados ante la Dirección General de Profesiones de la Secretaría de Educación Pública.</li>
+         </ul>
+         <ul>
+         <h1>Plan de estudios:</h1>
+	     <li>Está organizado en seis semestres e integrados por asignaturas y módulos que están distribuidos en tres componentes de formación: básica, propedéutica y profesional cubriendo un total de 2800 horas por semestre en 16 semanas y un trabajo promedio de 30 horas de trabajo académico por semana.</li>
+	     <li>El componente de formación básica con 1200 horas: se articula con la educación básica y con la de tipo superior, aborda los conocimientos esenciales de la ciencia, la tecnología y las humanidades, aporta fundamentos a la formación propedéutica y a la profesional y está integrado por asignaturas.</li>
+	     <li>Se distribuyen en cuatro campos de conocimiento, como son 1 Matemáticas, 2 Ciencias naturales, 3 Comunicación, 4 Humanidades, 5 Historia, sociedad y tecnología.</li>
+	     <li>El componente de formación propedéutica con 480 horas: se articula con la educación superior, pone énfasis en una profundización de los conocimientos disciplinares que favorezca una mejor incorporación de los egresados a instituciones de ese tipo educativo y está integrado por asignaturas.</li>
+         <li>Se organiza en tres áreas que permiten la convergencia e integración de los saberes previamente adquiridos: Físico –matemática; Químico – biológica y Económico – administrativa. (Sus seis asignaturas se ubican en el 5º y 6º Semestres, tres de ellas son comunes para las tres áreas, dos más son específicas para cada área y la última es elegida por el estudiante de acuerdo con la oferta del plantel.</li>
+	    <li>El componente de formación profesional con 1200 horas: es la formación tecnológica se da a partir del segundo semestre, te preparan como técnico del nivel medio superior, se organiza en carreras estructuradas en módulos para desarrollar las competencias profesionales correspondientes al campo de formación profesional de la carrera técnica elegida.</li>
+        </ul>
+        <br>
+        <center>
+        <h3><a href="http://www.dgeti.sep.gob.mx/">Click aqui para más información</a></h3>
+        </center>
+        </p>
+ <div data-role="collapsible" data-content-theme="false" align="center">
+  <h2>Ubicación</h2>
+  <p>Dirección: Fracc. Ricardo Flores Magon Domicilio Conocido S/N. Atlixco, Puebla. CP 74240</p>
+  <img src="imagenes/mapa.png" width="80%" height="80%">
+ </div>
+      </div>
+    </div>
+    
+    <div data-role="collapsible" data-content-theme="false">
+      <h2>¿Qué es La DGETI?</h2>
+          <p>
+          <center>
+          <h1>DGETI</h1>
+          </center>
+          <p>La Dirección General de Educación Tecnológica Industrial es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS), dependiente de la Secretaría de Educación Pública que ofrece el servicio educativo del nivel medio superior tecnológico. Actualmente la DGETI es la institución de educación media superior tecnológica más grande del país, con una infraestructura física de 442 planteles educativos a nivel nacional, de los cuales 168 son CETIS y 274 CBTIS; ha promovido además la creación de al menos 288 CECyTEs, mismos que operan bajo un sistema descentralizado. Tiene por objetivo formar bachilleres técnicos y técnicos profesionales que desarrollen, fortalezcan y preserven una cultura tecnológica y una infraestructura industrial y de servicios que coadyuven a satisfacer las necesidades económicas y sociales del país.</p>
+         <div class="dgeti" align="center">
+          <img src="imagenes/cbtis no.16.jpg" width="60%" height="60%">
+         </div>
+      </div>
+      
+ <div data-role="collapsible" data-content-theme="false">
+   <h2>Misión y Visión</h2>
+   <h2>MISIÓN</h2>
+   <p>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.
+   <h2>VISIÓN</h2>
+   <p>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+<!-- 
+<iframe src="visor/indexwow.html" style="width:640px;height:380px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+      </div>
+     </div>
+     
+ <div> 
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>OFERTA EDUCATIVA</h2>
+     <center>
+     <p>Muestra información acerca de las especialidades</p>
+     </center>
+     </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CBTIS N°16</h2>
+       <center>
+       <p>Muestra fotos del plantel</p>
+       </center>
+      </a>
+     </li>
+   </ul>
+ </div>
+ 
+  <div data-role="main" class="ui-content"> 
+   <div data-role="collapsible" data-content-theme="false">
+    <h2>Datos del Alumno</h2>
+    <p>Nombre: María del Carmen Hernández Márquez</p>
+    <p>Grado: 4to. Semestre</p>
+    <p>Grupo: "E"</p>
+    <p>Especialidad: Programación</p>
+    <p>Submodulo: Desarrolla Aplicaciones Moviles </p>
+   </div>
+  </div>
+  
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <div>
+  <img src="res/android/mdpi.png" width="56" height="56">
+ </div>
+  <div>
+    <h4>CBTis N°16</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+  </div>
+ </div><!-- div page -->
+
+<!--pagina1-->
+ <div data-role="page" id="Pagina1" data-theme="b" align="justify">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Oferta Educativa</h1>
+  </div>
+     <div data-role="content">
+      <div> 
+      <h3>TÉCNICO EN PROGRAMACIÓN</h3>
+      <p>Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.</p>
+      <h3>Competencias Profesionales</h3>
+      <img src="imagenes/programacion.jpg" width="88%" height="80%">
+      <h3>PERFIL DE EGRESO</h3>
+      <ul>
+      <p>La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la:</p>
+      <li>Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con almacenamiento persistente de datos.</li>
+      <li>Así como la configuración y administración de plataforma e-learning y Comercio electrónico.</li>
+     <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+      <li>Desarrolladores de software</li>
+      <li>Analistas de sistemas</li>
+      <li>Analista de programas de cómputo</li>
+      <li>Programador de sistemas de cómputo</li>
+      <li>Edición de software y edición de software integrada con la reproducción</li>
+      <li>Escuelas de computación del sector privado</li>
+      <li>Servicios de diseño de sistemas de cómputo y servicios relacionados</li>
+      <li>Escuelas de computación del sector público</li>
+      </ul>
+      <br>
+      <h3>TÉCNICO EN ADMINISTRACIÓN DE RECURSOS HUMANOS</h3>
+       <p>Elabora y gestiona documentación administrativa referente a recursos humanos, integra al personal a la organización, asiste en actividades de capacitación, desarrollo y evaluación del personal, así como determina las remuneraciones al personal.</p>
+       <h3>Competencias Profesionales</h3>
+       <img src="imagenes/recursos Humanos.JPG" width="88%" height="80%">
+       <h3>PERFIL DE EGRESO</h3>
+       <ul>
+       <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Administración de Recursos Humanos:</p>
+	   <li>Elabora y gestiona la información de la organización.</li>
+	   <li>Integra el capital humano a la organización.</li>
+  	   <li>Asiste en el control y evaluación del desempeño del capital humano de la organización.</li>
+	   <li>Controla los procesos y servicios de higiene y seguridad del capital humano en la organización.</li>
+	   <li>Determina las remuneraciones al capital humano de la organización.</li>
+       </ul>
+       <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+       <p>Auxiliar de información interna y externa. Auxiliar de control de personal. Asistente de gerente de recursos humanos. Auxiliar de personal. Servicios de administración de negocios, servicios de traducción e interpretación.</p>
+       <br> 
+       <h3>TÉCNICO EN ELECTRICIDAD</h3>
+       <p>La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.</p>
+       <h3>Competencias Profesionales</h3>
+       <img src="imagenes/electricidad.JPG" width="88%" height="80%">
+       <h3>PERFIL DE EGRESO</h3>
+       <ul>
+       <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.</p>
+       <li> Desarrolla instalaciones eléctricas residenciales y comerciales.</li>
+       <li>Mantiene los motores y generadores de CA y CC.</li>
+       <li>Mantiene en operación los circuitos de control electromagnético y electrónico.</li>
+       <li>Mantiene los sistemas de iluminación y de energía renovable.</li>
+       <li>Mantiene instalaciones eléctricas de media y baja tensión.</li>
+       </li>
+       </ul>
+       <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+       <p>Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social.</p>
+       <br>
+       <h3>TÉCNICO EN MECÁNICA INDUSTRIAL</h3>
+       <p>Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas</p>
+       <h3>COMPETENCIAS PROFESIONALES</h3>
+       <img src="imagenes/macanicaIndustrial.jpg" width="88%" height="80%">
+       <h3>PERFIL DE EGRESO</h3>
+       <ul>
+     <p>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:</p>
+       <li>Solda y ajusta piezas mecánicas.</li>
+       <li>Maquina piezas mecánicas en talador y torno.</li>
+       <li>Maquina piezas mecánicas en fresadora, rectificadora y cepillo.</li>
+       <li>Maquina piezas mecánicas por CNC.</li>
+       <li>Mantiene sistemas de transmisión de potencia.</li>
+       </ul>
+       <h3>OPORTUNIDADES DE INSERCIÓN LABORAL.</h3>
+       <p>Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.</p>
+   </div>
+  </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <div>
+  <img src="res/android/mdpi.png" width="56" height="56">
+ </div>
+  <div>
+    <h4>CBTIS N°16</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+   </div>
+ </div>
+  <!--PAGINA2-->      
+  <div data-role="page" id="Pagina2" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CBTis N°16</h1>
+   </div>   
+      <h2>Fotos del Plantel</h2>
+<!-- Start WOWSlider.com -->
+  <iframe src="visor/indexwow.html" style="width:676px;height:403px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div class="dgti">
+     <img src="res/android/mdpi.png" width="56" height="56" align="center">
+    </div>
+  <div>
+    <h4>CBTis N°16</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+ </div>
+</body>
+</html>
+
+    
+   
+   
+     
